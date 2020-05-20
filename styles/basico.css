@@ -1,0 +1,30 @@
+.visible {
+    
+  display: sticky;
+  animation-name: visible;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards; 
+  }
+
+  .hidden {
+    display: none;
+  }
+  @keyframes visible {
+    0% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 0.7;
+    }
+    100% {
+      opacity: 1;
+      transform: translatey(-400px);
+    }
+  }
+
+
+
+
+
+
